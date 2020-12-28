@@ -1,0 +1,161 @@
+body{
+    font-family: "Roboto",Helvetica,Arial,sans-serif;
+    font-size: 1rem;
+}
+.nav-item{
+    padding: .5rem .7rem;
+}
+.nav-item:hover{
+    background-color: #4fbfa8;
+    border-top: .2rem solid #3aa18c;
+}
+.nav-item:hover>a{
+    color: white !important;
+}
+.nav-link{
+    color:#555 !important;
+    font-weight: 600;
+}
+.dropdown-item:hover{
+    color: #3aa18c !important;
+    font-weight: bold;
+}
+.dropdown-item{
+    color: #9f9f9f;
+    border-bottom: 1px solid #f2f2f2 !important;
+    padding: .5em 1em;
+}
+.li-containt-dropDown{
+    position: initial;
+}
+.div-containt-dropDown-image{
+    display: flex;
+    align-items: center;
+}
+.Category-link{
+    margin-top: 5%;
+}
+/*contain-carousel*/
+.contain-carousel{
+    background-image: url(image/photogrid.jpg);
+    background-size: cover;
+    
+}
+.contain-carousel-overlay{
+    background-color: rgba(79,191,168,0.8);
+    padding: 8%;
+}
+.carousel-row-data{
+    color: white;
+}
+.carousel-data{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+/* card */
+.card-icon{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-i{
+    border-radius: 50%;
+    border: 1px solid;
+    padding: 10%;
+    color: #3aa18c;
+    font-size: x-large;
+}
+.Feature-card{
+    text-align: center;
+}
+.Feature-card-text{
+    color: gray;
+}
+/*comment*/
+
+.comment-contain{
+    background-image: url(image/texture-bw.png);
+    background-size: cover;
+    padding: 2%;
+
+}
+.comment-descripe{
+    text-align: center;
+}
+.comment-descripe>h2{
+    max-width: fit-content;
+    margin: auto;
+    border-bottom: 2px solid #3aa18c;
+    margin-bottom: 5%;
+}
+.comment-card-publisher{
+    margin-top: 15%;
+}
+/*<!-- DO YOU WANT TO SEE MORE? -->*/
+.seeMore-container{
+    background-image: url(image/fixed-background-2.jpg);
+    background-size: cover;
+    background-attachment:fixed;
+    color: white;
+    text-align: center;
+    padding: 2%;
+}
+.seeMore-icon{
+    border-radius: 50%;
+    border: 1px solid;
+    padding: 4%;
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 2%;
+}
+.blog-card{
+    text-align: center;
+}
+.blog-card .card-title{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+}
+.blog-card .card-text{
+    color: #888;
+}
+/*our Client*/
+.ourClient{
+    background-color: #e9ecef;
+    padding: 3%;
+}
+
+/*WANT COOL WEBSITE*/
+.want-websit{
+    background-color: #3aa18c;
+    padding: 4%;
+    color: white;
+}
+
+
+
+footer{
+    background-color: #555;
+    padding: 3%;
+    color: white;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+footer a:hover{
+    color: white;
+}
+.footer-text{
+    color: #aaa
+}
+.p-hr{
+    border: 1px solid white;
+    color: white;
+}
